@@ -1,6 +1,18 @@
-<h3>Apa itu Compiler?</h3>
-<p>Compiler adalah sebuah penerjemah suatu bahasa pemograman kedalam bahasa lain yang lebih mudah dimengerti oleh mesin kebanyakan adalah
-Assembly Code.</p>asdsadsadsadsadsad
+<h1>Introduction to Compiler</h1>
+
+<h3>1.1 Compiler</h3>
+<p><i><strong>Compiler</strong></i> adalah sebuah program yang mampu menterjemahkan suatu bahasa pemograman kedalam bahasa yang lebih mudah dimengerti oleh mesin yaitu <i><strong>Assembly Code</strong></i>.</p>
+
+<ol>
+<p>Glossary :</p>
+<li><i><strong></strong></i></li>
+<li><i><strong></strong></i></li>
+<li><i><strong></strong></i></li>
+<li><i><strong></strong></i></li>
+<li><i><strong></strong></i></li>
+<li><i><strong></strong></i></li>
+</ol>
+
 
 <p>Proses Kompilasi itu Sendiri terbagi menjadi beberapa bagian :</p>
 <ol>
