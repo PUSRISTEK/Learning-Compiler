@@ -1,10 +1,12 @@
+<h2>Initial Setup</h2>
+
 <h4>Setup Ant & Grunt</h4>
 <b>setup java -cp ant.jar org.ant.v4.Tool</b><br>
-<b>java -cp .;ant.jar org.ant.v4.gui.TestRig<b><br>
+<b>java -cp .;ant.jar org.ant.v4.gui.TestRig</b><br>
 
 <h4>Generate Ant</h4>
 <b>ant Hello.g4</b><br>
-<b>javac lexer.java<br>
+<b>javac lexer.java</b><br>
 
 <h4>Grunt TestRig</h4>
 <p>TestRig is a flexible testing tool in the runtime library. It can display lots of information about how a recognizer matches input from a file or standard input. TestRig uses Java reflection to invoke compiled recognizers.</p>
@@ -15,10 +17,20 @@
 <b>hello world</b><br>
 <b>CTRL+Z</b><br>
 
-<h4></h4>
+<h4>Grunt TestRig Tree</h4>
 <p>Print the Parse Tree with LISP style text form (root childern)</p>
 <b>Grunt Hello r -tree</b><br>
 <b>hello World</b><br>
 <b>r hello world</b><br>
+
+<h4>Grunt TestRig </h4>
+<p>The easiest way to see how a grammar recognizes the input, though, is by looking at the parse tree visually. Running TestRig with the -gui option.</p>
+<b>Grunt Hello r -gui</b><br>
+<b>Hello World</b><br>
+<b>CTRL+Z</b><br>
+
+<h2>The Big Picture</h2>
+<p>To implement a language, we have to build an application that reads sentences and reacts appropriately to the phrases and input symbols it discovers. (A language is a set of valid sentences, a sentence is made up of phrases, and
+a phrase is made up of subphrases and vocabulary symbols.)</p>
 
 <b></b><br>
