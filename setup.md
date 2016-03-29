@@ -1,8 +1,8 @@
-<h4>Setup Ant & Grunt<h4>
+<h4>Setup Ant & Grunt</h4>
 <b>setup java -cp ant.jar org.ant.v4.Tool</b><br>
 <b>java -cp .;ant.jar org.ant.v4.gui.TestRig<b><br>
 
-<h4>Generate Ant<h4>
+<h4>Generate Ant</h4>
 <b>ant Hello.g4</b><br>
 <b>javac lexer.java<br>
 
