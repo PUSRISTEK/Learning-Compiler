@@ -33,4 +33,16 @@
 <p>To implement a language, we have to build an application that reads sentences and reacts appropriately to the phrases and input symbols it discovers. (A language is a set of valid sentences, a sentence is made up of phrases, and
 a phrase is made up of subphrases and vocabulary symbols.)</p>
 
+<p>The parsing method using <b>Recursive-descent parser</b> (collection of recursive method, one per rule). Descent refer to the fact that parsing begins at the root of a parser tree and proceeds towards the leaves. <b>Recursive-descent parser</b> is a one kind of <b>Top Down Parser</b>.</p>
+
+<p><b>Lookahead Token</b> is a token that the parser sniff before matching and consuming it. Decision will be easy when each path start with unique name.</p>
+
+<ol>ANT Class: 
+<li>Charstream</li>
+<li>Lexer</li>
+<li>Token</li>
+<li>Parser</li>
+<li>Parser Tree</li>
+</ol>
+
 <b></b><br>
