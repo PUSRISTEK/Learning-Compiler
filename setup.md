@@ -8,6 +8,9 @@
 <b>ant Hello.g4</b><br>
 <b>javac lexer.java</b><br>
 
+<h4>Javac Compile</h4>
+<b>javac -classpath .;ant.jar *.java</b>
+
 <h4>Grunt TestRig</h4>
 <p>TestRig is a flexible testing tool in the runtime library. It can display lots of information about how a recognizer matches input from a file or standard input. TestRig uses Java reflection to invoke compiled recognizers.</p>
 
